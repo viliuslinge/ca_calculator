@@ -1,0 +1,29 @@
+:root {
+  font-size: 22px;
+}
+
+main {
+  max-width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pVisible {
+  opacity: 1;
+}
+
+p:first-of-type {
+  opacity: 1;
+}
+
+p {
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.gap {
+  height: 100vh;
+}
